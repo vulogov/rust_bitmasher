@@ -3,40 +3,9 @@
 
 ````markdown
 # bitmasher  
-Powerful bit‑level transformations, reversible pipelines, HKDF keying, ASCII armor, and password‑protected key export — all in one `no_std`‑friendly Rust crate.
+Powerful bit‑level datatransformations
 
----
 
-# 🏷️ Badges
-
-<!-- Build Status -->
-https://img.shields.io/badge/build-passing-brightgreen?style=flat-square
-
-<!-- Crates.io Version (placeholder if not published) -->
-https://img.shields.io/badge/crate-local-blue?style=flat-square
-
-<!-- License -->
-https://img.shields.io/badge/license-MIT%2FApache--2.0-blue?style=flat-square
-
-<!-- Rust Edition -->
-https://img.shields.io/badge/rust-2021-orange?style=flat-square
-
-<!-- no_std -->
-https://img.shields.io/badge/no__std-supported-informational?style=flat-square
-
-<!-- Unsafe-free -->
-https://img.shields.io/badge/unsafe%20code-0%25-success?style=flat-square
-
-<!-- Tested -->
-https://img.shields.io/badge/tests-100%25-success?style=flat-square
-
-<!-- HKDF -->
-https://img.shields.io/badge/HKDF-SHA512-purple?style=flat-square
-
-<!-- AEAD -->
-https://img.shields.io/badge/AEAD-ChaCha20--Poly1305-lightgrey?style=flat-square
-
----
 
 ## ✨ Overview
 
@@ -190,5 +159,3 @@ All provided tests pass:
 *   PPKE encrypt/decrypt
 *   ASCII armor roundtrips
 *   Pipeline v2 forward/inverse
-
-
