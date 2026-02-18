@@ -1,12 +1,12 @@
 SOURCES=$(wildcard src/*.rs)
-PIPELINE_SOURCES=$(wildcard crates/*/src/*.rs)
+TOOLS_SOURCES=$(wildcard crates/*/src/*.rs)
 
 
 all: $(SOURCES) Makefile
 	cargo build
 	cargo build --workspace
 
-pipeline: $(PIPELINE_SOURCES) Makefile
+tools: $(TOOLS_SOURCES) Makefile
 	cargo build --workspace
 
 rebuild:

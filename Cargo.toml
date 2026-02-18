@@ -3,6 +3,10 @@ name = "bitmasher"
 version = "0.1.0"
 edition = "2024"
 
+[workspace]
+members = ["crates/*"]
+resolver = "2"
+
 [dependencies]
 log = "0.4.*"
 ring = "0.17"

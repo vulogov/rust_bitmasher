@@ -1,0 +1,12 @@
+[package]
+name = "bitmasher_tool"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+clap = { version = "4.5.*", features = ["derive"] }
+better-panic = "0.3.0"
+easy-error = "1.0.*"
+env_logger = "0.11.*"
+log = "0.4.*"
+bitmasher = { version = "0.*.*", path = "../../" }
