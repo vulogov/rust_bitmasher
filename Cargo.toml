@@ -1,0 +1,9 @@
+[package]
+name = "bitmasher"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+log = "0.4.*"
+ring = "0.17"
+rand = { version = "0.8", features = ["std"] }
